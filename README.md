@@ -1,7 +1,8 @@
 # Meme Generator
+(This is a Udacity Code Review Project)
 
 ## Description
-This project offers online and offline functionality of creating memes.
+This project offers online and offline functionality for creating memes.
 It includes default pictures and text, but can also be chosen manually.
 
 ## Setting up
