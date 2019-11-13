@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Meme Generator
 
-You can use the [editor on GitHub](https://github.com/udacity/PYND/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Description
+This project offers online and offline functionality of creating memes.
+It includes default pictures and text, but can also be chosen manually.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Setting up
+Install all dependencies of requirements.txt.
 
-### Markdown
+## Running
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Run Offline Application
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+If you want to get a random meme, run the below.
+```bash
+python3 meme.py
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+If you want to have a customized one, run this.
+```bash
+python3 meme.py --path './myPicture.jpg' --author 'Confucius'
+        --body 'Life is really simple, but we insist on making it complicated'
+```
 
-### Jekyll Themes
+### Run Flask Server
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/udacity/PYND/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+You can run the flask server with
+```bash
+python3 app.py
+```
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Navigate to http://localhost:5000 and enjoy the application.

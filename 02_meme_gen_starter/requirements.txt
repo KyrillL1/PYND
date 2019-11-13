@@ -1,0 +1,17 @@
+wheel
+PIL
+os
+abc
+csv
+docx
+tika
+typing
+random
+sys
+requests
+urllib
+flask
+functools
+datetime
+subprocess
+pandas
